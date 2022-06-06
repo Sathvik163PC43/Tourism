@@ -1,0 +1,237 @@
+ .body{      
+  background: url(Charminar.jpg) no-repeat center fixed; 
+  background-size: cover;
+  color: pink;
+
+      }
+.clearfix{
+  clear: both;
+}
+.main-menu{
+  background-color: teal;
+}
+.main-menu > ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.main-menu > ul > li{
+  display: inline-block;
+}
+.main-menu > ul > li > a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: small;
+}
+.main-menu > ul > li > a:hover{
+  background-color: blueviolet;
+}
+/* dropdown */
+.dropdown{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  display: none;
+  z-index: 999;
+}
+.dropdown > li > a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: small;
+  background-color: teal;
+}
+.dropdown > li > a:hover{
+  background-color: blueviolet;
+}
+.main-menu > ul > li:hover .dropdown{
+  display: block;
+}
+/* banner */
+.banner{
+  width: 1000px;
+  height: 416.66px;
+  overflow: hidden;
+}
+.banner img{
+  width: 100%;
+  height: auto;
+  
+}
+.flex{
+  display: flex;
+}
+
+.div2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  color: pink;
+  width: 200px;
+  height: 150px;  
+}
+.div2 > ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+.div2 > ul > li >a{
+ display: block;
+ font-size: small;
+ margin-bottom: 5px;
+ text-decoration: none;
+ color: white;
+}
+.div3 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  color: pink;
+  
+  width: 200px;
+  height: 150px;  
+}
+.div3 > ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.div3 > ul > li >a{
+ display: block;
+ font-size: small;
+ margin-bottom: 5px;
+ text-decoration: none;
+ color: white;
+}
+.div4{
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  color: pink;
+ 
+  width: 200px;
+  height: 150px;  
+}
+.div4 > ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.div4 > ul > li >a{
+ display: block;
+ font-size: small;
+ margin-bottom: 5px;
+ text-decoration: none;
+ color: white;
+}
+.div5 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  color: pink;
+ 
+  width: 200px;
+  height: 150px;  
+}
+.div5 > ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.div5 > ul > li >a{
+ display: block;
+ font-size: small;
+ margin-bottom: 5px;
+ text-decoration: none;
+ color: white;
+}
+.div6 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  color: pink;
+ 
+  width: 200px;
+  height: 150px;  
+}
+.div6 > ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.div6 > ul > li >a{
+ display: block;
+ font-size: small;
+ margin-bottom: 5px;
+ text-decoration: none;
+ color: white;
+}
+.div8 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  color: pink;
+ 
+  width: 200px;
+  height: 150px;  
+}
+.div8 > ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.div8 > ul > li >a{
+ display: block;
+ font-size: small;
+ margin-bottom: 5px;
+ text-decoration: none;
+ color: white;
+}
+
+.div7{
+    background-color: pink;
+    color: black;
+    width: 950px;
+    height: auto;
+    padding: 15px;
+}
+.Footer-box{
+  width: 237.5px;
+  height: auto;
+  float: left;
+  font-family: sans-serif;
+}
+.Footer-box > ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.Footer-box > ul > li > a{
+  display: block;
+  font-size: small;
+  margin-bottom: 5px;
+  color: black;
+  text-decoration: none;
+}
+address p{
+  font-size: small;
+}
+address iframe{
+  width: 250px;
+  height: 225px;
+}
+.Footer-box  address  a{
+  color: black;
+font-size: small;
+}
+.copy {
+  font-family: sans-serif;
+  color: black;
+  padding: 25px;
+  background-color: pink;
+  text-align: center;
+}
+.copy p{
+  margin: 0px;
+}
